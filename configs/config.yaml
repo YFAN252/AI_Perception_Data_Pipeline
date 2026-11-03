@@ -1,0 +1,6 @@
+# 数据路径、超参数、数据库配置
+data_dir: "data/kitti/training/velodyne"
+output_dir: "output/processed"
+db_path: "pipeline_meta.db"
+workers: 8
+voxel_size: 0.2

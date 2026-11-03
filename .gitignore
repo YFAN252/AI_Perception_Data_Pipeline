@@ -1,0 +1,15 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略数据库文件（防止上传本地元数据）
+*.db
+*.sqlite
+
+# 忽略原始数据目录（防止上传几百GB的点云）
+data/
+output/
+
+# 忽略虚拟环境
+venv/
+env/
